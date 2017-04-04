@@ -16,3 +16,6 @@ alias ll='ls -al'
 
 # Does the same as the above alias, but it also lists the files in last-modification order
 alias lt='ls -alrt'
+
+# Make directories; always be recursive and verbose
+alias mkdir='mkdir -pv'
