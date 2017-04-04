@@ -1,0 +1,6 @@
+[alias]
+    unstage = reset HEAD
+    discard = "!f() { git reset HEAD .; git checkout -- .; git clean -df; }; f"
+    start = "!f() { git stash; git checkout -b $1 master; }; f"
+    wip = "!f() { git add .; git commit -m 'WIP'; }; f"
+    cleanpull = "!f() { git reset HEAD .; git checkout -- .; git clean -df; git pull; }; f"
