@@ -19,3 +19,7 @@ alias lt='ls -alrt'
 
 # Make directories; always be recursive and verbose
 alias mkdir='mkdir -pv'
+
+# Short-hand `git diff`
+alias gd='git diff'
+alias gdd='git diff --cached'
